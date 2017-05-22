@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .all{
   height: 100%;
@@ -28,6 +28,11 @@ body {
 .logo{
   float: left;
   padding-left: 20px;
+  font-size: 30px;
+}
+
+.logo p {
+  margin-top: 0;
 }
 .nav{
   float: right;
@@ -41,11 +46,13 @@ body {
 .landing-text h3{
   font-size: 60px;
   margin-bottom: 0;
+  text-shadow: 2px 2px #eb8770;
 }
 .landing-text h1{
   font-size: 100px;
   margin-bottom: 75px;
   margin-top: 0;
+  text-shadow: 2px 2px #eb8770;
 }
 hr{
   color: white;
@@ -54,6 +61,10 @@ hr{
 .button-area{
   color: white;
   text-align: center;
+}
+
+.button-area p {
+  font-family: 'Slabo 27px', serif;
 }
 .trial{
   background-color: #eb8770;
@@ -88,9 +99,9 @@ hr{
 .column p {
   margin-left: auto;
   margin-right: auto;
-  width: 14em;
+  width: 16em;
   color: #979797;
-  font-family: serif;
+  font-family: 'Slabo 27px', serif;
 }
 .fa {
   border-radius: 100px;
