@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.all{
+  height: 100%;
+}
+
+.top {
+  padding-top: 30px;
+  height: 600px;
+  background: url('../img/wedding.jpg');
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 55% 94%, 50% 100%, 45% 94%, 0 94%, 0% 30%);
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 55% 94%, 50% 100%, 45% 94%, 0 94%, 0% 30%);
+
+}
+
+.header{
+  color: white;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+}
+.logo{
+  float: left;
+  padding-left: 20px;
+}
+.nav{
+  float: right;
+}
+.landing-text{
+  /*float:left;*/
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+.landing-text h3{
+  font-size: 60px;
+  margin-bottom: 0;
+}
+.landing-text h1{
+  font-size: 100px;
+  margin-bottom: 75px;
+  margin-top: 0;
+}
+hr{
+  color: white;
+  width: 40%;
+}
+.button-area{
+  color: white;
+  text-align: center;
+}
+.trial{
+  background-color: #eb8770;
+  border: 1px solid #af7253;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.content{
+  margin: 20px;
+  padding-top: 80px;
+  height: 100%;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.column{
+  float:left;
+  width:32%;
+  text-align: center;
+}
+.column h4{
+  color: #979797;
+}
+.column p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 14em;
+  color: #979797;
+  font-family: serif;
+}
+.fa {
+  border-radius: 100px;
+  border: 1px solid #979797;
+  padding: 30px;
+  color: #979797;
+}
